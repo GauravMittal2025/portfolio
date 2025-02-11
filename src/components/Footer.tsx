@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Twitter, Linkedin, Mail, Facebook, Instagram } from 'lucide-react';
 
+
 function FooterContent() {
   const socialLinks = [
     {
