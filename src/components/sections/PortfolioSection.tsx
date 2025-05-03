@@ -78,14 +78,14 @@ const PortfolioSection = () => {
             onClick={() => setActiveFilter(category.id)}
             className={`px-4 py-2 rounded-full text-sm transition-colors ${
               activeFilter === category.id
-                ? 'bg-blue-600 text-white'
+                ? 'bg-orange-600 text-white'
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'
             }`}
           >
             {category.name}
           </button>
         ))}
-      </div>
+      </div> 
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {filteredItems.map((item) => (
@@ -101,7 +101,7 @@ const PortfolioSection = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                 <div className="p-4 w-full">
-                  <span className="text-xs uppercase tracking-wider bg-blue-600 text-white px-2 py-1 rounded">
+                  <span className="text-xs uppercase tracking-wider bg-orange-600 text-white px-2 py-1 rounded">
                     {categories.find(cat => cat.id === item.category)?.name}
                   </span>
                 </div>
@@ -112,7 +112,7 @@ const PortfolioSection = () => {
               <p className="text-gray-600 dark:text-gray-400 mb-4">{item.description}</p>
               <a 
                 href="#" 
-                className="text-blue-600 dark:text-blue-400 font-medium inline-flex items-center hover:underline"
+                className="text-orange-600 dark:text-orange-400 font-medium inline-flex items-center hover:underline"
               >
                 View Case Study
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

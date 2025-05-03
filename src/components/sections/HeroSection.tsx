@@ -35,7 +35,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 opacity-0 animate-fade-in-up" style={{animationDelay: '0.3s', animationFillMode: 'forwards'}}>
-            Innovating The Future <span className="text-blue-400">Together</span>
+            Innovating The Future <span className="text-orange-400">Together</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto opacity-0 animate-fade-in-up" style={{animationDelay: '0.6s', animationFillMode: 'forwards'}}>
