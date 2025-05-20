@@ -77,9 +77,8 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-lg">Our Location</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                  PN 22/25, 91 & 92, Gopalpura Bypass, Gopal Nagar A
-                  Ashok Vihar Extension<br />
-                  Opposite Triveni Puliya
+                  Plot No.8, Sheeji Nagar, Mansarover<br />
+                  (Raj.) Jaipur, 302020
                   </p>
                 </div>
               </div>
@@ -89,8 +88,8 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-medium text-lg">Email Us</h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Info@infinextechnologies.com<br />
-                    {/* support@infinex.com */}
+                    gaurav@technorathtechnologies.com<br />
+                    {/* support@TechnoRath.com */}
                   </p>
                 </div>
               </div>
@@ -101,7 +100,6 @@ const ContactSection = () => {
                   <h4 className="font-medium text-lg">Call Us</h4>
                   <p className="text-gray-600 dark:text-gray-400">
                     (+91) 80790-61623<br />
-                    (+91) 97852-28992
                   </p>
                 </div>
               </div>

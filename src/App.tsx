@@ -16,7 +16,7 @@ import { MapPin } from 'lucide-react';
 function App() {
   useEffect(() => {
     // Update page title
-    document.title = 'Infinex - Innovating The Future Together';
+    document.title = 'TechnoRath - Innovating The Future Together';
     
     // Add scrolling animations
     const addScrollAnimations = () => {
@@ -116,9 +116,9 @@ function App() {
           <TechStackSection />
         </div>
         
-        <div className="section-animate">
+        {/* <div className="section-animate">
           <TrainingSection />
-        </div>
+        </div> */}
         
         <div className="section-animate">
           <ContactSection />

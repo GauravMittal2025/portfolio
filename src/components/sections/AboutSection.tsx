@@ -52,13 +52,13 @@ const AboutSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="order-2 lg:order-1">
           <SectionHeading 
-            title="About Infinex"
+            title="About TechnoRath"
             subtitle="A technology partner committed to your success"
             align="left"
           />
           
           <p className="text-gray-600 dark:text-gray-400 mb-8">
-            Founded in 2025, Infinex has grown from a small tech startup to a leading technology consultancy serving clients across industries. Our mission is to help businesses harness the power of technology to achieve their strategic goals and stay ahead in today's rapidly evolving digital landscape.
+            Founded in 2025, TechnoRath has grown from a small tech startup to a leading technology consultancy serving clients across industries. Our mission is to help businesses harness the power of technology to achieve their strategic goals and stay ahead in today's rapidly evolving digital landscape.
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

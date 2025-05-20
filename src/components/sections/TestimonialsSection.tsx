@@ -14,7 +14,7 @@ const TestimonialsSection = () => {
       name: "Sarah Johnson",
       role: "CTO",
       company: "FinTech Innovations",
-      content: "Working with Infinex transformed our digital infrastructure. Their team delivered a robust cloud solution that increased our operational efficiency by 40% and significantly improved our security posture.",
+      content: "Working with TechnoRath transformed our digital infrastructure. Their team delivered a robust cloud solution that increased our operational efficiency by 40% and significantly improved our security posture.",
       image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     },
     {
@@ -22,7 +22,7 @@ const TestimonialsSection = () => {
       name: "David Chen",
       role: "Product Director",
       company: "HealthCare Solutions",
-      content: "The mobile application Infinex developed for us has revolutionized how we interact with patients. The intuitive design and seamless functionality exceeded our expectations and received glowing feedback from users.",
+      content: "The mobile application TechnoRath developed for us has revolutionized how we interact with patients. The intuitive design and seamless functionality exceeded our expectations and received glowing feedback from users.",
       image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     },
     {
@@ -30,7 +30,7 @@ const TestimonialsSection = () => {
       name: "Amanda Rodriguez",
       role: "VP of Operations",
       company: "Global Logistics Inc.",
-      content: "Infinex's supply chain management solution provided unprecedented visibility into our operations. Their team's expertise in both technology and logistics was evident throughout the project, resulting in a 25% reduction in operational costs.",
+      content: "TechnoRath's supply chain management solution provided unprecedented visibility into our operations. Their team's expertise in both technology and logistics was evident throughout the project, resulting in a 25% reduction in operational costs.",
       image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     }
   ];
@@ -96,11 +96,12 @@ const TestimonialsSection = () => {
             }`}
             style={{ transform: `translateX(-${activeIndex * 100}%)` }}
           >
-            {testimonials.map((testimonial, index) => (
+            {testimonials.map((testimonial, index) => {
+            return(
               <div 
                 key={testimonial.id}
                 className="w-full flex-shrink-0 px-4"
-                style={{ display: index === activeIndex ? 'block' : 'none' }}
+                // style={{ display: index === activeIndex ? 'block' : 'none' }}
               >
                 <div className="bg-gray-800 rounded-lg p-8 relative">
                   <div className="flex flex-col md:flex-row gap-6 items-center">
@@ -121,7 +122,7 @@ const TestimonialsSection = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            )})}
           </div>
         </div>
         

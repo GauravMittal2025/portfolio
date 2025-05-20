@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold">Infinex</h3>
+            <h3 className="text-xl font-bold">TechnoRath</h3>
             <p className="text-gray-400 max-w-xs">
               Transforming businesses through innovative technology solutions and expert consulting.
             </p>
@@ -55,17 +55,16 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0 text-blue-400" />
-                <span className="text-gray-400">PN 22/25, 91 & 92, Gopalpura Bypass, Gopal Nagar A
-                  Ashok Vihar Extension<br />
-                  Opposite Triveni Puliya</span>
+                <span className="text-gray-400">Plot No. 8, Sheeji Nagar, Mansarover<br />
+                  Jaipur</span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 flex-shrink-0 text-blue-400" />
-                <span className="text-gray-400">(+91) 80790 61623 <br/> (+91) 97852-28992</span>
+                <span className="text-gray-400">(+91) 80790 61623</span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0 text-blue-400" />
-                <span className="text-gray-400">Info@infinextechnologies.com</span>
+                <span className="text-gray-400">gaurav@technorathtechnologies.com</span>
               </li>
             </ul>
           </div>
@@ -74,7 +73,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm">
-              &copy; {new Date().getFullYear()} Infinex. All rights reserved.
+              &copy; {new Date().getFullYear()} TechnoRath. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-400 text-sm">Privacy Policy</a>

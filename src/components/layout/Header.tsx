@@ -11,9 +11,9 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
-    { name: 'Portfolio', href: '#portfolio' },
+    { name: 'Projects', href: '#projects' },
     { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Training', href: '#training' },
+    // { name: 'Training', href: '#training' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -51,7 +51,7 @@ const Header = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center">
-            <span className="text-2xl font-bold text-orange-600 dark:text-blue-400">Infinex</span>
+            <span className="text-xl font-bold text-orange-600 dark:text-blue-400">Techno-Rath</span>
           </a>
           
           <div className="hidden md:flex items-center space-x-6">
